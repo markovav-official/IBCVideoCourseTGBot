@@ -1,0 +1,11 @@
+{
+    "text": "What does it take to pass PE?",
+    "options": [
+        "Complete 30 semester hours",
+        "Successfully complete a fitness test",
+        "Write an essay on a topic given by the instructor",
+        "Complete 30 semester hours and successfully pass the fitness test"
+    ],
+    "correct": 3,
+    "optionsInButtons": false
+}

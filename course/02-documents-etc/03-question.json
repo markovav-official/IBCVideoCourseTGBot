@@ -1,0 +1,10 @@
+{
+    "text": "How many times should one check university mailbox?",
+    "options": [
+        "Every hour",
+        "At least once a day",
+        "Once a week",
+        "As you wish"
+    ],
+    "correct": 1
+}

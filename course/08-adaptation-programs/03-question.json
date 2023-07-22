@@ -1,0 +1,10 @@
+{
+    "text": "If students have a misunderstanding with a professor, who should they go to?",
+    "options": [
+        "Write to the bot",
+        "Contact the university ambassador",
+        "Call your parents and find out what to do",
+        "Contact the student representative"
+    ],
+    "correct": 3
+}

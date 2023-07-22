@@ -1,0 +1,10 @@
+{
+    "text": "Can I smoke e-cigarettes on campus?",
+    "options": [
+        "Yes, because they can't cause a fire",
+        "Yes, if your neighbor doesn't mind",
+        "No, smoking is prohibited on campus",
+        "Yes, if you are willing to pay a fine"
+    ],
+    "correct": 2
+}

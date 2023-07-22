@@ -1,0 +1,11 @@
+{
+    "text": "How long do you have to undergo a medical examination and fingerprinting?",
+    "options": [
+        "Medical examination within a month, fingerprinting within 2 months",
+        "Within 90 days after entering the Russian Federation",
+        "Within 90 days after obtaining registration",
+        "Within 20 working days after visa extension"
+    ],
+    "correct": 1,
+    "optionsInButtons": false
+}

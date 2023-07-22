@@ -1,0 +1,11 @@
+{
+    "text": "What is available in the dormitory?",
+    "options": [
+        "Bed linen, towel, drinking water, possibility to use washing machines, irons",
+        "Breakfasts, bed linen, personal hygiene products, dishes",
+        "Nothing, you have to bring your own things",
+        "Bed linen, microwave, iron, power ring"
+    ],
+    "correct": 0,
+    "optionsInButtons": false
+}

@@ -1,0 +1,11 @@
+{
+    "text": "What is a GPA and what does it affect?",
+    "options": [
+        "The average score of the events, the amount of merch earned",
+        "This is the average score for all exams taken during the semester, scholarship",
+        "Social rating, a place in the rating of Innopolis residents",
+        "All your grades for the semester, scholarship"
+    ],
+    "correct": 1,
+    "optionsInButtons": false
+}

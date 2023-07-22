@@ -1,0 +1,10 @@
+{
+    "text": "Who is Buddy?",
+    "options": [
+        "A member of the 319 team",
+        "A professor who teaches your required course",
+        "A student who will help you adjust to the university",
+        "A student who enrolled with you and wants to be a rep"
+    ],
+    "correct": 2
+}

@@ -1,0 +1,12 @@
+{
+    "text": "Calculate your scholarship, if your grades are APBBC, you must indicate the minimum and maximum (min 3000, max 10000).",
+    "options": [
+        "5500",
+        "6000",
+        "6200",
+        "6500",
+        "7000",
+        "10000"
+    ],
+    "correct": 0
+}

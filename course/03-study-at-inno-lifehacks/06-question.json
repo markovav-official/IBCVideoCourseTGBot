@@ -1,0 +1,11 @@
+{
+    "text": "Will a medical certificate count as a legal excuse 5 days after being sick?",
+    "options": [
+        "Yes",
+        "Attendance of absences depends on illness",
+        "No",
+        "Maybe"
+    ],
+    "correct": 2,
+    "optionsInButtons": false
+}

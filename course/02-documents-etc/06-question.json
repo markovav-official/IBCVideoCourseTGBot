@@ -1,0 +1,11 @@
+{
+    "text": "Is it possible to buy a frying pan in Innopolis?",
+    "options": [
+        "Radio-controlled only",
+        "Of course yes",
+        "A frying pan - no, a saucepan - yes",
+        "A frying pan will be given to each student in the dormitory when they move in"
+    ],
+    "correct": 1,
+    "optionsInButtons": false
+}

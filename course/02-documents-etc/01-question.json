@@ -1,0 +1,11 @@
+{
+    "text": "What attributes does every IU student have?",
+    "options": [
+        "Student's corporate mail, education/grant agreement, student pass and student card, personal belongings/documents (laptop, passport, etc.)",
+        "Student ID and credit card",
+        "Laptop",
+        "A large amount of prior knowledge"
+    ],
+    "correct": 0,
+    "optionsInButtons": false
+}

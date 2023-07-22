@@ -1,0 +1,10 @@
+{
+    "text": "What is my.university.innopolis.ru?",
+    "options": [
+        "A treatise on the \"Programming\" module",
+        "A service for recruiting personnel at Innopolis University",
+        "An online calculator",
+        "A portal for students with a set of useful services"
+    ],
+    "correct": 3
+}

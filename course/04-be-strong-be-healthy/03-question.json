@@ -1,0 +1,11 @@
+{
+    "text": "How to get sport hours?",
+    "options": [
+        "Attend a sports programming class",
+        "Attend classes offered through elective courses or University athletic clubs, participate in competitions organized by the University or outside athletic clubs, and exercise independently",
+        "To study independently at home on the couch",
+        "To hand in test papers, write essays, answer all questions of the teacher, attend lectures"
+    ],
+    "correct": 1,
+    "optionsInButtons": false
+}

@@ -1,0 +1,11 @@
+{
+    "text": "When can I start going to the gym?",
+    "options": [
+        "Information about the date of attendance will be received in your course channel",
+        "From the second course",
+        "After signing and submitting all admission documents to the University",
+        "After receiving your student pass"
+    ],
+    "correct": 0,
+    "optionsInButtons": false
+}

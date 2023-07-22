@@ -1,0 +1,11 @@
+{
+    "text": "Where can I read all official documents?",
+    "options": [
+        "In the University rules book, which can be borrowed from the library",
+        "On the stand located on the 1st floor of the University",
+        "On the official website of the University in the documents section",
+        "Ask the rector"
+    ],
+    "correct": 2,
+    "optionsInButtons": false
+}

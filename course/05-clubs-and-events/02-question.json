@@ -1,0 +1,11 @@
+{
+    "text": "What types of clubs are there?",
+    "options": [
+        "Creative, sports, science and technology, special interests",
+        "Night and day",
+        "Religious, political, national",
+        "For boys and girls"
+    ],
+    "correct": 0,
+    "optionsInButtons": false
+}

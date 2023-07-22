@@ -1,0 +1,11 @@
+{
+    "text": "When is the scholarship paid out?",
+    "options": [
+        "Every week on Friday",
+        "On the University's birthday",
+        "Once a month around the 25th of the month",
+        "Once a month on the 14th and 29th of the month"
+    ],
+    "correct": 2,
+    "optionsInButtons": false
+}

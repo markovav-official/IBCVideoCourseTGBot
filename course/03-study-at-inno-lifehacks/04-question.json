@@ -1,0 +1,10 @@
+{
+    "text": "How many retakes can there be?",
+    "options": [
+        "There are no retakes at the University",
+        "One",
+        "Two",
+        "Three"
+    ],
+    "correct": 2
+}

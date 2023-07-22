@@ -1,0 +1,10 @@
+{
+    "text": "Who is a TA?",
+    "options": [
+        "Treasure assistant",
+        "Tutor assistant",
+        "Teacher assistant",
+        "Typical assistant"
+    ],
+    "correct": 2
+}

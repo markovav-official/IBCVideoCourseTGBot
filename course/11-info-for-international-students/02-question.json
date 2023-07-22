@@ -1,0 +1,10 @@
+{
+    "text": "How many days does it take to process a new visa?",
+    "options": [
+        "2-3 days",
+        "20 calendar days",
+        "20 working days",
+        "20 minutes"
+    ],
+    "correct": 2
+}

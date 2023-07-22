@@ -1,0 +1,11 @@
+{
+    "text": "How can you earn innopoints?",
+    "options": [
+        "Study with excellent grades",
+        "Do volunteer work",
+        "Attend all meetings of the Tutor program",
+        "Be a teacher's assistant"
+    ],
+    "correct": 1,
+    "optionsInButtons": false
+}

@@ -1,0 +1,10 @@
+{
+    "text": "If something in your dorm room breaks, where do you need to go?",
+    "options": [
+        "To the administrator in dormitory 3",
+        "To office 319",
+        "To the IU reception desk",
+        "To the student rep"
+    ],
+    "correct": 0
+}

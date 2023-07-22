@@ -1,0 +1,11 @@
+{
+    "text": "What is important to bring with you?",
+    "options": [
+        "Laptop and chargers; personal documents; vital medications; household items needed for living",
+        "Notebooks, pens, pencil case and files",
+        "A pet or favorite toy",
+        "Mom's jam and grandma's dumplings"
+    ],
+    "correct": 0,
+    "optionsInButtons": false
+}
