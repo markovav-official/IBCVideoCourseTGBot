@@ -11,8 +11,10 @@ public class Lesson
     {
         Id = path.Split(Path.DirectorySeparatorChar).Last().Split("-")[0];
         Steps = new List<Step>();
+        Console.WriteLine("Reading lesson " + path);
         foreach (var stepPath in Directory.GetFiles(path))
         {
+            Console.WriteLine("  Reading step " + stepPath);
             var stepFileName = stepPath.Split(Path.DirectorySeparatorChar).Last();
             var stepType = stepFileName.Split(".")[0].Split("-")[1];
             var step = stepType switch
