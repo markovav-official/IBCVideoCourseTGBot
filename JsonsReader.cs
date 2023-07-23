@@ -13,7 +13,7 @@ public static class JsonsReader
 
         _course = new List<Lesson>();
         const string basePath = "course";
-        foreach (var lessonPath in Directory.GetDirectories(basePath))
+        foreach (var lessonPath in Directory.GetDirectories(basePath).OrderBy(p => p))
         {
             var lesson = new Lesson(lessonPath);
             _course.Add(lesson);

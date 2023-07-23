@@ -12,7 +12,7 @@ public class Lesson
         Id = path.Split(Path.DirectorySeparatorChar).Last().Split("-")[0];
         Steps = new List<Step>();
         Console.WriteLine("Reading lesson " + path);
-        foreach (var stepPath in Directory.GetFiles(path))
+        foreach (var stepPath in Directory.GetFiles(path).OrderBy(p => p))
         {
             Console.WriteLine("  Reading step " + stepPath);
             var stepFileName = stepPath.Split(Path.DirectorySeparatorChar).Last();
