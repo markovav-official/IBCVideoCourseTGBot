@@ -1,5 +1,5 @@
 ﻿FROM mcr.microsoft.com/dotnet/sdk:7.0-bullseye-slim AS build-env
-RUN apt-get update && apt-get install -y libfontconfig1
+RUN apt-get update && apt-get install -y libfontconfig1 libfontconfig1-dev
 WORKDIR /App
 
 # Copy everything
