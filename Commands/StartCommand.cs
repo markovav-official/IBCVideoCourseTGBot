@@ -13,18 +13,18 @@ public static class StartCommand
             return;
         }
 
-        if (!message.Text.Equals("/start"))
-        {
-            var target = message.Text[7..];
-            await bot.SendTextMessageAsync(message.Chat.Id, "Teleport after " + target,
-                replyMarkup: new InlineKeyboardMarkup(
-                    new InlineKeyboardButton("CLICK")
-                    {
-                        CallbackData = target
-                    }
-                ));
-            return;
-        }
+        // if (!message.Text.Equals("/start"))
+        // {
+        //     var target = message.Text[7..];
+        //     await bot.SendTextMessageAsync(message.Chat.Id, "Teleport after " + target,
+        //         replyMarkup: new InlineKeyboardMarkup(
+        //             new InlineKeyboardButton("CLICK")
+        //             {
+        //                 CallbackData = target
+        //             }
+        //         ));
+        //     return;
+        // }
 
         await JsonsReader.GetCourse()[0].Steps[0].Send(message.From!.Id, bot);
     }
