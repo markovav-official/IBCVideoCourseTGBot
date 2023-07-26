@@ -54,7 +54,14 @@ public class TgBot
                     var stepIndex = int.Parse(query[2..4]);
                     var step = lesson.Steps[stepIndex];
 
-                    await DeleteOrEditMessage(update, step, query, cancellationToken);
+                    try
+                    {
+                        await DeleteOrEditMessage(update, step, query, cancellationToken);
+                    }
+                    catch (Exception)
+                    {
+                        // ignored
+                    }
 
                     if (step is Question question && query.Length > 4 && query[4..] != "QSTATUS")
                     {
