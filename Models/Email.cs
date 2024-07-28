@@ -19,18 +19,28 @@ public partial class Email : Step
 
     internal override async Task Send(long id, TelegramBotClient bot)
     {
-        await using var db = new DatabaseContext();
-        var isAuthorized = await db.Users.AnyAsync(u => u.Id == id && u.Confirmed);
-
+        // Previous version with email check
+        // await using var db = new DatabaseContext();
+        // var isAuthorized = await db.Users.AnyAsync(u => u.Id == id && u.Confirmed);
+        // await bot.SendTextMessageAsync(id,
+        //     text: Text + (isAuthorized ? "" : NotAuthorizedText),
+        //     parseMode: ParseMode.Html,
+        //     replyMarkup: !isAuthorized
+        //         ? null
+        //         : new InlineKeyboardMarkup(new InlineKeyboardButton(ButtonText)
+        //         {
+        //             CallbackData = Lesson.Id + Id
+        //         })
+        // );
+        
+        // Current version (no email checks)
         await bot.SendTextMessageAsync(id,
-            text: Text + (isAuthorized ? "" : NotAuthorizedText),
+            text: Text,
             parseMode: ParseMode.Html,
-            replyMarkup: !isAuthorized
-                ? null
-                : new InlineKeyboardMarkup(new InlineKeyboardButton(ButtonText)
-                {
-                    CallbackData = Lesson.Id + Id
-                })
+            replyMarkup: new InlineKeyboardMarkup(new InlineKeyboardButton(ButtonText)
+            {
+                CallbackData = Lesson.Id + Id
+            })
         );
     }
 

@@ -7,6 +7,7 @@ using Telegram.Bot.Polling;
 using Telegram.Bot.Types;
 using Telegram.Bot.Types.Enums;
 using Telegram.Bot.Types.ReplyMarkups;
+using User = IBCVideoCourseTGBot.Models.User;
 
 namespace IBCVideoCourseTGBot;
 
@@ -87,11 +88,14 @@ public class TgBot
 
                     await using var db = new DatabaseContext();
 
-                    if (!await db.Users.AnyAsync(u => u.Id == update.Message!.From!.Id && u.Confirmed,
-                            cancellationToken: cancellationToken))
-                    {
-                        await (JsonsReader.GetCourse()[0].Steps[0] as Email)?.TryReadMessage(update.Message!, _bot)!;
-                    }
+                    // Previous version
+                    // if (!await db.Users.AnyAsync(u => u.Id == update.Message!.From!.Id && u.Confirmed,
+                    //         cancellationToken: cancellationToken))
+                    // {
+                    //     await (JsonsReader.GetCourse()[0].Steps[0] as Email)?.TryReadMessage(update.Message!, _bot)!;
+                    // }
+
+                    // Current version
 
                     break;
                 }
