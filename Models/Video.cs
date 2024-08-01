@@ -18,7 +18,8 @@ public class Video : Step
 
         await bot.SendPhotoAsync(id,
             InputFile.FromStream(image),
-            caption: Text + "\n\nWatch the video 👉 " + Link,
+            // caption: Text + "\n\nWatch the video 👉 " + Link,
+            caption: Text + $"\n\n \ud83d\udc49 {Link}",
             parseMode: ParseMode.Html,
             replyMarkup: new InlineKeyboardMarkup(new InlineKeyboardButton(ButtonText)
             {
