@@ -1,6 +1,7 @@
 using Microsoft.EntityFrameworkCore;
 using Telegram.Bot;
 using Telegram.Bot.Types;
+using Telegram.Bot.Types.ReplyMarkups;
 using User = IBCVideoCourseTGBot.Models.User;
 
 namespace IBCVideoCourseTGBot.Commands;
@@ -14,18 +15,18 @@ public static class StartCommand
             return;
         }
 
-        // if (!message.Text.Equals("/start"))
-        // {
-        //     var target = message.Text[7..];
-        //     await bot.SendTextMessageAsync(message.Chat.Id, "Teleport after " + target,
-        //         replyMarkup: new InlineKeyboardMarkup(
-        //             new InlineKeyboardButton("CLICK")
-        //             {
-        //                 CallbackData = target
-        //             }
-        //         ));
-        //     return;
-        // }
+        if (!message.Text.Equals("/start"))
+        {
+            var target = message.Text[7..];
+            await bot.SendTextMessageAsync(message.Chat.Id, "Teleport after " + target,
+                replyMarkup: new InlineKeyboardMarkup(
+                    new InlineKeyboardButton("CLICK")
+                    {
+                        CallbackData = target
+                    }
+                ));
+            return;
+        }
         
         var db = new DatabaseContext();
         
